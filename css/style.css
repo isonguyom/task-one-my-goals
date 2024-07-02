@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  padding: 10px 7%;
+  color: #ece3e7;
+  background: #1E2E45;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  color: #A4ED94;
+}
+
+.slack-name {
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+.container {
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+  line-height: 30px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ece3e7;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  padding-right: 0.5em;
+  color: #A4ED94;
+}
+
+td {
+  padding: 0.4em 0;
+}
+
+.links-wrapper {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: block;
+  color: #ece3e7;
+}
+
+.link:hover {
+  color: #A4ED94;
+}
+
+.goals-wrapper {
+  margin-top: 30px;
+}
+
+.goals-wrapper ul {
+  padding-left: 1em;
+  list-style-type: disc;
+}
